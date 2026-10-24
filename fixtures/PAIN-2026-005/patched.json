@@ -1,0 +1,9 @@
+{
+  "pain_id": "PAIN-2026-005",
+  "expected": "PATCHED",
+  "filename": "Dockerfile",
+  "type": "docker",
+  "base_image": "php:8.3.13-fpm-alpine@sha256:7b91d3e12c43141f6a117094b8307db18549646b95b8d2cb3780360a747908b8",
+  "is_digest_pinned": true,
+  "raw": "FROM php:8.3.13-fpm-alpine@sha256:7b91d3e12c43141f6a117094b8307db18549646b95b8d2cb3780360a747908b8\nRUN apk add --no-cache\nCOPY . /var/www/html"
+}

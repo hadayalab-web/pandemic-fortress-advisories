@@ -1,0 +1,9 @@
+{
+  "pain_id": "PAIN-2026-006",
+  "expected": "PATCHED",
+  "filename": "mcp.json",
+  "type": "mcp",
+  "has_invisible_unicode": false,
+  "has_bidi_override": false,
+  "raw": "{\n  \"mcpServers\": {\n    \"filesystem\": {\n      \"command\": \"npx\",\n      \"args\": [\"-y\", \"@modelcontextprotocol/server-filesystem\", \"/workspace/safe_sandbox\"],\n      \"env\": { \"READ_ONLY\": \"true\" }\n    }\n  }\n}"
+}

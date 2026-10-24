@@ -1,0 +1,120 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.6",
+  "serialNumber": "urn:uuid:c7d6ff8b-6b43-4cbb-a3d6-4e39ba7b76b3",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-24T09:00:00+09:00",
+    "tools": {
+      "components": [
+        {
+          "type": "application",
+          "author": "HadayaLab",
+          "name": "Sovereign Supply-Chain Attestation Engine",
+          "version": "15.3.0",
+          "externalReferences": [
+            {
+              "type": "website",
+              "url": "https://hadayalab.com/security"
+            }
+          ]
+        }
+      ]
+    },
+    "authors": [
+      {
+        "name": "Hajime Chiba",
+        "email": "hadayalab@gmail.com"
+      }
+    ],
+    "component": {
+      "type": "application",
+      "bom-ref": "app-production-app",
+      "name": "production-app",
+      "version": "1.0.0",
+      "purl": "pkg:composer/hadayalab/production-app@1.0.0",
+      "description": "Inspected production artifact for PAIN-2026-001 (HL-R1-PHP2SHELL)"
+    },
+    "properties": [
+      {
+        "name": "hadayalab:attestation_status",
+        "value": "REMEDIATION_ATTESTED"
+      },
+      {
+        "name": "hadayalab:valid_from",
+        "value": "2026-10-24"
+      },
+      {
+        "name": "hadayalab:valid_until",
+        "value": "2026-10-31"
+      },
+      {
+        "name": "hadayalab:auditor_authority",
+        "value": "45x Google Cloud & DeepMind Skill Badges"
+      },
+      {
+        "name": "hadayalab:verification_url",
+        "value": "https://hadayalab.com/verify?id=HL-2026-2026-001"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "comp-PAIN-2026-001",
+      "name": "PHP2Shell Runtime Memory Corruption & Stale Pointer RCE",
+      "version": "1.0.0",
+      "purl": "pkg:composer/hadayalab/production-app@1.0.0",
+      "scope": "required",
+      "hashes": [
+        {
+          "alg": "SHA-256",
+          "content": "df5deca7eeed09cd98c94896cc7a3b544e0e240c05ef5d709f045e6f87dc1105"
+        }
+      ]
+    }
+  ],
+  "vulnerabilities": [
+    {
+      "bom-ref": "vuln-PAIN-2026-001",
+      "id": "CVE-2026-109618",
+      "source": {
+        "name": "NVD",
+        "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
+      },
+      "ratings": [
+        {
+          "source": {
+            "name": "HadayaLab Sovereign Engine"
+          },
+          "score": 9.5,
+          "severity": "critical",
+          "method": "CVSSv31"
+        }
+      ],
+      "analysis": {
+        "state": "resolved",
+        "justification": "protected_by_mitigating_control",
+        "response": [
+          "will_not_fix",
+          "mitigation_implemented"
+        ]
+      },
+      "affects": [
+        {
+          "ref": "comp-PAIN-2026-001"
+        }
+      ]
+    }
+  ],
+  "signature": {
+    "algorithm": "Ed25519",
+    "keyId": "hadayalab-attest-2026-ed25519-k1",
+    "publicKey": {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "nV4M1AVcxd3xieTvSXTiRAupKYbukg2V4IwXYaZ7o9Q"
+    },
+    "value": "wT+rA85XOulgqFeoFKhGPH8yUXslMuzn+/NbI6kvUY60J2GVoTgLYGdSDLLleGfwlM0585OBPIt71HivxEtgCA=="
+  }
+}

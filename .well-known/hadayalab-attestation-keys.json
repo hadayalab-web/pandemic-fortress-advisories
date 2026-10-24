@@ -1,0 +1,14 @@
+{
+  "keys": [
+    {
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "kid": "hadayalab-attest-2026-ed25519-k1",
+      "use": "sig",
+      "x": "nV4M1AVcxd3xieTvSXTiRAupKYbukg2V4IwXYaZ7o9Q",
+      "issuer": "https://hadayalab.com",
+      "aud": "https://hadayalab.com/verify",
+      "spki": "-----BEGIN PUBLIC KEY-----\nMCowBQYDK2VwAyEAnV4M1AVcxd3xieTvSXTiRAupKYbukg2V4IwXYaZ7o9Q=\n-----END PUBLIC KEY-----\n"
+    }
+  ]
+}

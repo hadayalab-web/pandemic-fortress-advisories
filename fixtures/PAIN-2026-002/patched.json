@@ -1,0 +1,9 @@
+{
+  "pain_id": "PAIN-2026-002",
+  "expected": "PATCHED",
+  "filename": "package-lock.json",
+  "type": "npm",
+  "node_version": "22.11.1",
+  "brotli_enabled": true,
+  "raw": "{\"name\": \"backend\", \"lockfileVersion\": 3, \"packages\": {\"\": {\"engines\": {\"node\": \"22.11.1\"}}}}"
+}

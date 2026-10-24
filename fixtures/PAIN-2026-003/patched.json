@@ -1,0 +1,9 @@
+{
+  "pain_id": "PAIN-2026-003",
+  "expected": "PATCHED",
+  "filename": "composer.json",
+  "type": "composer",
+  "php_version": "8.3.12",
+  "waf_virtual_patch": true,
+  "raw": "{\"require\": {\"php\": \"^8.3\", \"woocommerce/woocommerce\": \"~8.5\"}}"
+}

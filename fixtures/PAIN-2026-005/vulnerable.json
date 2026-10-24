@@ -1,0 +1,9 @@
+{
+  "pain_id": "PAIN-2026-005",
+  "expected": "VULNERABLE",
+  "filename": "Dockerfile",
+  "type": "docker",
+  "base_image": "php:8.3-fpm",
+  "is_digest_pinned": false,
+  "raw": "FROM php:8.3-fpm\nRUN apt-get update\nCOPY . /var/www/html"
+}

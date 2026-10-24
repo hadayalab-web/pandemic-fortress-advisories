@@ -1,0 +1,9 @@
+{
+  "pain_id": "PAIN-2026-001",
+  "expected": "VULNERABLE",
+  "filename": "composer.lock",
+  "type": "composer",
+  "php_version": "8.3.11",
+  "session_upload_progress": true,
+  "raw": "{\"packages\": [{\"name\": \"laravel/framework\", \"version\": \"v10.38.0\"}], \"platform\": {\"php\": \"8.3.11\"}}"
+}
