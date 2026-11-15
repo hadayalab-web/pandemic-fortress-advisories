@@ -1,7 +1,7 @@
 # HadayaLab Digital Pandemic Fortress — Signed CycloneDX 1.6 SBOMs, AST Fixtures & Advisories
 
-[![HadayaLab Attested](https://hadayalab.com/badge/HL-2026-ATTESTED.svg)](https://hadayalab.com/verify)
-[![Verify Ed25519 Signed SBOMs](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml/badge.svg)](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml)
+[![HadayaLab Attested](https://img.shields.io/badge/HadayaLab%20Attested-Ed25519%20DSSE-047857?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com/verify)
+[![SBOM CI](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml/badge.svg)](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml)
 [![Live AST Inspectors](https://img.shields.io/badge/Live%20AST%20Sandboxes-hadayalab.com%2Fblog-000000?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com/blog)
 [![Verify Signatures](https://img.shields.io/badge/Ed25519%20DSSE%20Verifier-hadayalab.com%2Fverify-047857?style=flat-square)](https://hadayalab.com/verify)
 [![45x Google Skills Badges](https://img.shields.io/badge/Google%20Skills-45x%20Verified%20Badges-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://hadayalab.com/about#badges)

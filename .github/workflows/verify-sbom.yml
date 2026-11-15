@@ -1,4 +1,4 @@
-name: Verify Ed25519 Signed SBOMs
+name: SBOM CI
 
 on:
   push:
