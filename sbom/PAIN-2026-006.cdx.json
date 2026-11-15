@@ -2,16 +2,16 @@
   "bomFormat": "CycloneDX",
   "specVersion": "1.6",
   "serialNumber": "urn:uuid:75d881f4-0c18-4046-ac32-8aa07ed794c3",
-  "version": 1,
+  "version": 2,
   "metadata": {
-    "timestamp": "2026-10-24T09:00:00+09:00",
+    "timestamp": "2026-11-15T12:00:00+09:00",
     "tools": {
       "components": [
         {
           "type": "application",
           "author": "HadayaLab",
           "name": "Sovereign Supply-Chain Attestation Engine",
-          "version": "15.3.0",
+          "version": "15.9.0",
           "externalReferences": [
             {
               "type": "website",
@@ -24,7 +24,7 @@
     "authors": [
       {
         "name": "Hajime Chiba",
-        "email": "hadayalab@gmail.com"
+        "email": "contact@hadayalab.com"
       }
     ],
     "component": {
@@ -42,11 +42,11 @@
       },
       {
         "name": "hadayalab:valid_from",
-        "value": "2026-10-24"
+        "value": "2026-11-15"
       },
       {
         "name": "hadayalab:valid_until",
-        "value": "2026-10-31"
+        "value": "2026-12-31"
       },
       {
         "name": "hadayalab:auditor_authority",
@@ -54,7 +54,7 @@
       },
       {
         "name": "hadayalab:verification_url",
-        "value": "https://hadayalab.com/verify?id=HL-2026-2026-006"
+        "value": "https://hadayalab.com/verify?id=HL-2026-006"
       }
     ]
   },
@@ -115,6 +115,6 @@
       "crv": "Ed25519",
       "x": "nV4M1AVcxd3xieTvSXTiRAupKYbukg2V4IwXYaZ7o9Q"
     },
-    "value": "b1upTUdmCJ75abVtqbKGVetsJ/igG+x4lCr/CRUPiiiytWcBCrMadojLjmP8B95v8LGB+A2VPa4KLL01U5lJCw=="
+    "value": "1VMB3wszHoZlWhDQiR6rpKWu0VjN8ZmRZ/++R53c8DUZrnxCf9gqWa0H9uxOKWuhajG1atCfUIzR5lw0+n01DQ=="
   }
 }

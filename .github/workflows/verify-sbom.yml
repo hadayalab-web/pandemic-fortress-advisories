@@ -1,0 +1,23 @@
+name: Verify Ed25519 Signed SBOMs
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-sboms:
+    name: Ed25519 DSSE CycloneDX 1.6 Verification
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Verify all signed CycloneDX 1.6 SBOMs against public JWKS
+        run: node verify_sbom.mjs

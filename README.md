@@ -1,14 +1,15 @@
 # HadayaLab Digital Pandemic Fortress — Signed CycloneDX 1.6 SBOMs, AST Fixtures & Advisories
 
-[![HadayaLab Attested](https://hadayalab.com/badge/HL-2026-DEMO.svg)](https://hadayalab.com/verify)
+[![HadayaLab Attested](https://hadayalab.com/badge/HL-2026-ATTESTED.svg)](https://hadayalab.com/verify)
+[![Verify Ed25519 Signed SBOMs](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml/badge.svg)](https://github.com/hadayalab-web/pandemic-fortress-advisories/actions/workflows/verify-sbom.yml)
 [![Live AST Inspectors](https://img.shields.io/badge/Live%20AST%20Sandboxes-hadayalab.com%2Fblog-000000?style=flat-square&logo=cloudflare&logoColor=white)](https://hadayalab.com/blog)
 [![Verify Signatures](https://img.shields.io/badge/Ed25519%20DSSE%20Verifier-hadayalab.com%2Fverify-047857?style=flat-square)](https://hadayalab.com/verify)
 [![45x Google Skills Badges](https://img.shields.io/badge/Google%20Skills-45x%20Verified%20Badges-4285F4?style=flat-square&logo=googlecloud&logoColor=white)](https://hadayalab.com/about#badges)
-[![Credly Wallet](https://img.shields.io/badge/Credly-31x%20Badges-FF6B00?style=flat-square&logo=credly&logoColor=white)](https://www.credly.com/users/hadayalab)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
 
 Public advisory mirror, reproducible lockfile/manifest test fixtures (`vulnerable.json` & `patched.json`), and DSSE Ed25519 cryptographically signed **CycloneDX 1.6 SBOM attestations** for the 6 active supply-chain vulnerability waves maintained by [**HadayaLab (AIO Media LLC)**](https://hadayalab.com).
 
-> **Zero-Exfiltration Guarantee (`connect-src none`)**: All interactive AST & lockfile inspections on [`https://hadayalab.com/blog`](https://hadayalab.com/blog) execute 100% inside a strict browser sandbox (`Content-Security-Policy: default-src none; connect-src none`). Customer `composer.lock`, `package-lock.json`, `Dockerfile`, and `mcp.json` manifests never leave the browser.
+> **Zero-Exfiltration Guarantee (`connect-src 'none'`)**: All interactive AST & lockfile inspections on [`https://hadayalab.com/blog`](https://hadayalab.com/blog) execute 100% inside a strict browser sandbox (`Content-Security-Policy: default-src 'none'; connect-src 'none'`). Customer `composer.lock`, `package-lock.json`, `Dockerfile`, and `mcp.json` manifests never leave the browser.
 
 ---
 
@@ -25,7 +26,7 @@ Public advisory mirror, reproducible lockfile/manifest test fixtures (`vulnerabl
 
 ---
 
-## 🔐 Cryptographic Verification (`Ed25519` DSSE / `in-toto` Statement v1)
+## 🔐 Cryptographic Verification (`Ed25519` DSSE / CycloneDX 1.6)
 
 Every SBOM in [`./sbom/`](./sbom/) is signed with HadayaLab's active Ed25519 key (`hadayalab-attest-2026-ed25519-k1`) published at [`https://hadayalab.com/.well-known/hadayalab-attestation-keys.json`](https://hadayalab.com/.well-known/hadayalab-attestation-keys.json).
 
@@ -43,7 +44,7 @@ Or verify any Attestation ID online at [`https://hadayalab.com/verify`](https://
 
 - **Mother Platform**: [https://hadayalab.com](https://hadayalab.com)
 - **All Live Advisories**: [https://hadayalab.com/blog](https://hadayalab.com/blog)
-- **20 Production AI & Cloud Blueprints**: [https://hadayalab.com/templates](https://hadayalab.com/templates)
+- **41 Sovereign AI & Cloud Production Blueprints**: [https://hadayalab.com/templates](https://hadayalab.com/templates)
 - **Shared Credit Wallet (`$10 = 100 cr` / `$49 = 600 cr` MRI Bundle)**: [https://hadayalab.com/pricing](https://hadayalab.com/pricing)
 - **Security & CSP Specification**: [https://hadayalab.com/security](https://hadayalab.com/security)
 - **Executive Profile (Hajime Chiba — 45x Google Cloud & DeepMind Skill Badges)**: [https://hadayalab.com/about](https://hadayalab.com/about)
